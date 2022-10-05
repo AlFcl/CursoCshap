@@ -6,7 +6,6 @@ Ejercicio 1
  
  */
 
-Console.WriteLine("Escribe tu nombre");
 string nombre = Console.ReadLine();
 Console.WriteLine("Tu nombre es: " + nombre);
 
@@ -19,7 +18,6 @@ Console.WriteLine("Tu nombre es: " + nombre);
 Console.WriteLine("Escribe la hora");
 string hora = Console.ReadLine();
 Console.WriteLine("La hora es: " + hora);
-
 
 
 /*------------------------------SECCION 2--------------- */
