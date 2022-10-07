@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Text;
+using System.Xml.Serialization;
+using System.IO;
+
 /*
 Ejercicio 1
  Escribe un programa que reciba tu nombre y lo escriba por consola.
@@ -146,7 +149,7 @@ else
 }
 
 Console.WriteLine("Escribe un caracter");
-char caracter = Convert.ToChar(value: Console.ReadLine());
+char? caracter = Convert.ToChar(value: Console.ReadLine());
 if (caracter == 'a')
 {
     Console.WriteLine("El caracter es a");
@@ -155,4 +158,15 @@ else
 {
     Console.WriteLine("El caracter no es a");
 }
+
+
+Console.WriteLine("------------------------\n");
+
+
+Console.WriteLine("Ejercicio 1 seccion 3 \r");
+Console.WriteLine("------------------------\n");
+
+
+// call clientes.cs
+
 
